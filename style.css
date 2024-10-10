@@ -1,0 +1,124 @@
+.header {
+    background-color: rgba(0, 0, 0, .05);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.avatar, .logo {
+    max-width: 50px;
+}
+.logo {
+    border-radius: 50%;
+}
+
+.container {
+    margin-bottom: 30px;
+}
+.container, .col-md-12, .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.headerWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.btn-primary {
+    background-color: black;
+    border: 1px solid black;
+}
+.btn-secondary {
+    background-color: transparent;
+    border: 0;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+    &:hover {
+        background-color: transparent;
+        text-decoration: underline;
+        color: black;
+    }
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, .05);
+}
+.bg {
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.floginForm {
+    display: block;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+.update-form-container {
+    margin-bottom: 40px;
+}
+.link-secondary {
+    color: rgb(95, 91, 91);
+    font-weight: bold;
+    &:hover {
+        color: rgb(95, 91, 91);
+        text-decoration: underline;
+    }
+}
+.link-danger {
+    color: rgb(211, 43, 43);
+    font-weight: bold;
+    &:hover {
+        color: rgb(211, 43, 43);
+        text-decoration: underline;
+    }
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.userAvatar {
+    width: 100%;
+    max-width: 128px;
+    display: block;
+}
+ 
+.mt-4, .my-4 {
+    margin-top: 0 !important;
+}
+.hide {
+    display: none;
+}
+.loggedInConatiner {
+     
+    display: none;
+}
+.alert {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.fade-out {
+    opacity: 0;
+    /*transition: opacity 1s ease-out;*/
+    opacity: 1; /* Fully visible */
+    transition: opacity 1s ease; /* Smooth transition of 2 seconds */
+}
+.hidden {
+    opacity: 0; /* Fully hidden */
+}
+.hide {
+    display: none;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #535252 !important;
+    border: 1px solid #535252 !important;
+}
+.loginForm {
+    background-color: rgba(0, 0, 0, .05);
+    padding: 20px;
+}
+ 
