@@ -192,8 +192,8 @@ async function addNewUser(e) {
 
 // Show all data 
 async function displayData() {
-    //const data = await fetchAllData();
-    const data = JSON.parse(localStorage.getItem('users')) || [];
+    const data = await fetchAllData();
+    //const data = JSON.parse(localStorage.getItem('users')) || [];
     const newUsers = JSON.parse(localStorage.getItem('newUsers')) || [];
     const deletedUsers = JSON.parse(localStorage.getItem('deletedUsers')) || [];
     const allUsers = [...data, ...newUsers];
